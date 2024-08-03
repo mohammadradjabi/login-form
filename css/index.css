@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wrapper > div.login {
+  display: none;
+  padding: 16px;
+  width: 400px;
+  border-radius: 16px;
+  background-color: rgb(68, 68, 180);
+  color: white;
+  justify-content: center;
+}
+.wrapper > div.login > h4 > span {
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+.wrapper > div.login > div {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  gap: 20px;
+}
+.wrapper > div.login > div > input {
+  text-align: center;
+  border-radius: 16px;
+  border: none;
+  transition: linear 300ms;
+  height: 40px;
+  width: 150px;
+  outline: none;
+}
+.wrapper > div.login > div > input:focus {
+  width: 180px;
+}
+.wrapper > div.login > div > button {
+  padding: 10px 16px;
+  border-radius: 16px;
+  border: none;
+  background-color: green;
+  color: whitesmoke;
+  cursor: pointer;
+  border: 0.5px solid white;
+  transition: all linear 400ms;
+  margin: 10px 0;
+}
+.wrapper > div.login > div > button:hover {
+  background-color: black;
+}
+.wrapper > div.login > div > span {
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.wrapper > div.signup {
+  padding: 16px;
+  width: 400px;
+  border-radius: 16px;
+  background-color: rgb(68, 68, 180);
+  color: white;
+  justify-content: center;
+}
+.wrapper > div.signup > h4 > span {
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+.wrapper > div.signup > div {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  gap: 20px;
+}
+.wrapper > div.signup > div > input {
+  text-align: center;
+  border-radius: 16px;
+  border: none;
+  transition: linear 300ms;
+  height: 40px;
+  width: 180px;
+  outline: none;
+}
+.wrapper > div.signup > div > input:focus {
+  width: 220px;
+}
+.wrapper > div.signup > div > button {
+  padding: 10px 16px;
+  border-radius: 16px;
+  border: none;
+  background-color: green;
+  color: whitesmoke;
+  cursor: pointer;
+  border: 0.5px solid white;
+  transition: all linear 400ms;
+  margin: 10px 0;
+}
+.wrapper > div.signup > div > button:hover {
+  background-color: black;
+}
+.wrapper > div.signup > div > span {
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.css.map */

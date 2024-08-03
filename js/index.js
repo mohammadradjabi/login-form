@@ -1,0 +1,20 @@
+$("span.login").on("click",
+    function(){
+        $("div.signup").css({
+            display:"none"
+        })
+        $("div.login").css({
+            display:"block"
+        })
+    }
+)
+$("span.signup").on("click",
+    function(){
+        $("div.signup").css({
+            display:"block"
+        })
+        $("div.login").css({
+            display:"none"
+        })
+    }
+)
